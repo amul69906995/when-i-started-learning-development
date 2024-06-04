@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin: 0px 0px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  nav {
+    background-color: black;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  li {
+    list-style: none;
+    padding: 3px 12px;
+    font-size: 20px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container {
+    font-weight: bold;
+
+
+    margin: 25px auto;
+    text-align: center;
+
+  }
+
+  input,
+  textarea {
+    display: block;
+    padding: 6px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 50%;
+  }
+
+  .btn {
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid black;
+    outline: none;
+    width: 20%;
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: url("/static/amul1.1.jpg");
+   
+    z-index: -1;
+    opacity: 0.5;
+
+  }
+</style>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/">about</a></li>
+      <li><a href="/">contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+
+    <h1>title of form </h1>
+    <!-- <p>
+    | #{content}
+ </p> -->
+    <form action="/" id="contact">
+      <input type="text" name="name-1" id="name" placeholder=" form-column1">
+      <input type="text" name="name-2" id="name" placeholder=" form-column2">
+      <input type="text" name="name-3" id="name" placeholder=" form-column3">
+      <input type="text" name="name-4" id="name" placeholder=" form-column4">
+      <input type="text" name="name-5" id="name" placeholder=" form-column5">
+      <textarea name="adress" id="adress-1" cols="10" rows="10" placeholder="rectangle-1"></textarea>
+      <textarea name="adress" id="adress-1" cols="10" rows="10" placeholder="rectangle-1"></textarea>
+      <button class="btn">submit</button>
+
+    </form>
+  </div>
+
+</body>
+
+</html>

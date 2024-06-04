@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+nav{
+    display: flex;
+    background: black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.item{
+    list-style: none;
+  
+}
+.item a{
+    text-decoration: none;
+    padding: 15px 33px;
+    display: block;
+  font-size: 30px;
+  font-family: 'East Sea Dokdo', cursive;
+  color: white;
+    display: flex;
+   
+}
+.item a:hover{
+    background:pink;
+    color: aqua;
+    border-radius: 5px;
+    border: 2px solid red;
+
+}
+.container_1{
+    max-width: 80%;
+    border: 2px solid black;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'East Sea Dokdo', cursive;
+    border-radius: 10px;
+    height: 100vh;
+    background: white;
+    font-size: 30px;
+}
+.container_1 p{
+    margin: 7px 10px;
+}
+
+.item input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 23px;
+    margin: 2px 313px;
+    
+}
+.item input:hover{
+    background:pink;
+    color: aqua;
+    border-radius: 115px;
+    border: 4px solid red;
+  
+}
+body{
+    background: url("1.jpg");
+}

@@ -1,0 +1,16 @@
+{
+  "name": "amul",
+  "version": "1.0.0",
+  "description": "this is a pakage we created while studying and exploring node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}
